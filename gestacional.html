@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//gestacional.css">
+    <title>Anamnese Gestacional</title>
+    <style>
+       
+    </style>
+
+
+</head>
+<body>
+    <Form action="gestacional.php" method="post" >
+    <div class="container">
+        <h1>Anamnese Gestacional</h1>
+        <fieldset>
+            <label>Periodo de gestação</label>
+            <br>
+            <input type="text" name="periodo" class="text">
+        </fieldset>
+        <br>
+        <fieldset>
+            <label>Fez pré-natal?</label>
+            <br>
+            <input type="radio" id="checkbox" name="r1"> sim <input type="radio" id="checkbox" name="r1"> não
+            <br>
+            <label>Nome do médico</label>
+            <br>
+            <input type="text" name="nomeM" class="text">
+            <br>
+            <label>Existe possibilidade de complicações?</label>
+            <br>
+            <input type="radio" id="checkbox" name="r2"> sim <input type="radio" id="checkbox" name="r2"> não
+        </fieldset>
+        <br>
+        <fieldset>
+            <label>É o primeiro filho?</label>
+            <br>
+            <input type="radio" id="checkbox" name="r3"> sim <input type="radio" id="checkbox" name="r3"> não
+            <br>
+            <label>Quantos?</label>
+            <br>
+            <input type="text" name="quantos" class="text">
+        </fieldset>
+        <br>
+        <fieldset>
+            <label>Que horas iniciaram as contrações?</label>
+            <br>
+            <input type="time" name="horas" class="text">
+            <br>
+            <label>Duração:</label>
+            <input type="text" name="duracao" class="text">
+            <label>Intervalo:</label>
+            <input type="text" name="intervalo" class="text">
+        </fieldset>
+        <br>
+        <fieldset>
+            <label>Sente pressão na região do quadril ou vontade de evacuar?</label>
+            <br>
+            <input type="radio" id="checkbox" name="r4"> sim <input type="radio" id="checkbox" name="r4"> não
+            <br>
+            <label>Já houve ruptura da bolsa?</label>
+            <br>
+            <input type="radio" id="checkbox" name="r5"> sim <input type="radio" id="checkbox" name="r5"> não
+            <br>
+            <label>Foi feito inspeção visual?</label>
+            <br>
+            <input type="radio" id="checkbox" name="r6"> sim <input type="radio" id="checkbox" name="r6"> não
+            <br>
+            </fieldset>
+            <br>
+            <fieldset>
+            <label>Parto realizado?</label>
+            <br>
+            <input type="radio" id="checkbox" name="r7"> sim <input type="radio" id="checkbox" name="r7"> não
+            <br>
+            <label>Hora do nascimento</label>
+            <br>
+            <input type="time" name="horaNasc" class="text">
+            <br>
+            <label>Sexo do bebê</label>
+            <br>
+            <input type="radio" id="checkbox" name="r8"> FEM <input type="radio" id="checkbox" name="r8"> MAS
+            <br>
+            <label>Nome do bebê</label>
+            <br>
+            <input type="text" name="nomebb" class="text">
+        </fieldset>
+
+        <button type="submit">GRAVAR</button>
+    </Form>
+</body>
+</html>

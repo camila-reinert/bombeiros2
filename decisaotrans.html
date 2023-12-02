@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//decisaotrans.css">
+    <title>Avaliação do Paciente (Nível de Consciência)</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <Form action="decisaotrans.php" method="post" >
+    <div class="container">
+        <h1>Decisão transporte</h1>
+        <form>
+            <div class="section">
+                <label>
+                    <input type="radio" name="decisaotrans" value="Espontânea"> Crítico
+                </label>
+                <label>
+                    <input type="radio" name="decisaotrans" value="Comando Verbal"> Instável
+                </label>
+                <label>
+                    <input type="radio" name="decisaotrans" value="Estímulo Doloroso"> Estável
+                </label>
+                <label>
+                    <input type="radio" name="decisaotrans" value="Estímulo Doloroso"> Potencialmente instável
+                </label>
+            </div>
+
+            <div class="container">
+                <h1>Equipe de atendimento</h1>
+                <form>
+                    <label>M:</label>
+                    <input type="text" name="M">
+                    <label for="idade">S1:</label>
+                    <input type="text" name="S1">
+                    <label>S2:</label>
+                    <input type="text" name="S2">
+                    <label>Demante:</label>
+                    <input type="text" name="demante">
+                    <label>Equipe</label>
+                    <input type="text" name="equipe">
+                </div>
+                <BR>
+                    <button type="submit">GRAVAR</button>
+                </Form>
+        </form>
+    </div>
+</body>
+</html>

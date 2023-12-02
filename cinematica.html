@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//cinematica.css">
+    <title>Tabela de Verificação</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <Form action="cinematica.php" method="post" >
+<div class="fundo">
+    <h1>Avaliação Cinemática</h1> <!-- Título adicionado aqui -->
+    <table>
+        <thead>
+            <tr>
+                <th>Opção</th>
+                <th>Sim</th>
+                <th>Não</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="radio-group">
+                <td>Distúrbio de comportamento</td>
+                <td>
+                    <input type="radio" id="opcao1_sim" name="op1" value="Sim">
+                    <label for="opcao1_sim"></label>
+                </td>
+                <td>
+                    <input type="radio" id="opcao1_nao" name="op1" value="Não">
+                    <label for="opcao1_nao"></label>
+                </td>
+            </tr>
+            <tr class="radio-group">
+            <td>Encontrado de capacete</td>
+                <td>
+                    <input type="radio" id="opcao2_sim" name="op2" value="Sim">
+                    <label for="opcao2_sim"></label>
+                </td>
+                <td>
+                    <input type="radio" id="opcao2_nao" name="op2" value="Não">
+                    <label for="opcao2_nao"></label>
+                </tr>
+                <tr class="radio-group">
+                    <td>Encontrado de cinto</td>
+                        <td>
+                            <input type="radio" id="opcao3_sim" name="op3" value="Sim">
+                            <label for="opcao3_sim"></label>
+                        </td>
+                        <td>
+                            <input type="radio" id="opcao3_nao" name="op3" value="Não">
+                            <label for="opcao3_nao"></label>
+                        </tr>
+                        <tr class="radio-group">
+                            <td>Para-brisas avariado</td>
+                                <td>
+                                    <input type="radio" id="opcao4_sim" name="op4" value="Sim">
+                                    <label for="opcao4_sim"></label>
+                                </td>
+                                <td>
+                                    <input type="radio" id="opcao4_nao" name="op4" value="Não">
+                                    <label for="opcao4_nao"></label>
+                                </tr>
+                                <tr class="radio-group">
+                                    <td>Caminhando na cena</td>
+                                        <td>
+                                            <input type="radio" id="opcao5_sim" name="op5" value="Sim">
+                                            <label for="opcao5_sim"></label>
+                                        </td>
+                                        <td>
+                                            <input type="radio" id="opcao5_nao" name="op5" value="Não">
+                                            <label for="opcao5_nao"></label>
+                                        </tr>
+                                            <tr class="radio-group">
+                                                <td>Painel avariado</td>
+                                                    <td>
+                                                        <input type="radio" id="opcao6_sim" name="op6" value="Sim">
+                                                        <label for="opcao6_sim"></label>
+                                                    </td>
+                                                    <td>
+                                                        <input type="radio" id="opcao6_nao" name="op6" value="Não">
+                                                        <label for="opcao6_nao"></label>
+                                                    </tr>
+                                                    <tr class="radio-group">
+                                                        <td>Volante torcido</td>
+                                                            <td>
+                                                                <input type="radio" id="opcao7_sim" name="op7" value="Sim">
+                                                                <label for="opcao7_sim"></label>
+                                                            </td>
+                                                            <td>
+                                                                <input type="radio" id="opcao7_nao" name="op7" value="Não">
+                                                                <label for="opcao7_nao"></label>
+                                                            </tr>
+</div>
+            <!-- Resto das linhas da tabela -->
+        </tbody>
+    </table>
+    <br>
+ <button type="submit">GRAVAR</button> 
+</Form>
+</body>
+</html>

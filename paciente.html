@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//paciente.css">
+    <title>Ficha Técnica de Ocorrências de Emergência</title>
+    <style>
+        /* Adicione seus estilos aqui, se necessário */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Paciente</h1>
+        
+        <form action="paciente.php" method="post">
+            <label>Data:</label>
+            <input type="date" name="data">
+            <label>Sexo:</label>
+            <select name="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+            <label>Nome Hospital:</label>
+            <input type="text" name="hospital">
+            <label>Nome do paciente:</label>
+            <input type="text" name="nome">
+            <label for="idade">Selecione a Idade:</label>
+            <input type="number" name="idade">
+            <label>RG/CPF:</label>
+            <input type="number" name="rg_cpf">
+            <label>Telefone:</label>
+            <input type="number" name="telefone">
+            <label>Acompanhante:</label>
+            <input type="text" name="acompanhante_paciente">
+            <label>Idade acomp.:</label>
+            <input type="number" name="idade_acompanhante">
+            <label>Local da ocorrência</label>
+            <input type="text" name="local_ocorrencia">
+            <label for="local">N° USB:</label>
+            <input type="number" id="n_usb_paciente" name="n_usb">
+            <label for="local">cod ur:</label>
+            <input type="number" id="cod_ur_paciente" name="cod_ur">
+            <label for="local">N° ocorr:</label>
+            <input type="number" id="n_ocorr_paciente" name="n_ocorrencia">
+            <label for="local">cod ps:</label>
+            <input type="number" id="cod_ps_paciente" name="cod_ps">
+            <label for="local">Desp:</label>
+            <input type="text" id="desp_paciente" name="desp">
+            <label for="local">H.CH:</label>
+            <input type="text" id="h_ch_paciente" name="h_ch">
+            <label for="local">KM.Final:</label>
+            <input type="number" id="km_final_paciente" name="km_final">
+            <label for="local">Cód.SIA/SUS:</label>
+            <input type="number" id="cod_sia_sus_paciente" name="cod">
+            <label for="local">Socorrista:</label>
+            <input type="text" id="socorrista" name="socorrista">
+           
+            <button type="submit">Gravar</button>
+        </form>
+    </div>
+</body>
+</html>

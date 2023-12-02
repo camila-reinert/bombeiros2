@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//avaliacaopaci.css">
+    <title>Avaliação do Paciente (Nível de Consciência)</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Avaliação do Paciente menor de 5 anos (Nível de Consciência)</h1>
+        <form action="avaliacaopaci.php" method="post">
+            <div class="section">
+                <h2>Abertura Ocular:</h2>
+                <label>
+                    <input type="radio" name="abertura_ocular" value="Espontânea"> Espontânea (4)
+                </label>
+                <label>
+                    <input type="radio" name="abertura_ocular" value="Comando Verbal"> Comando Verbal (3)
+                </label>
+                <label>
+                    <input type="radio" name="abertura_ocular" value="Estímulo Doloroso"> Estímulo Doloroso (2)
+                </label>
+                <label>
+                    <input type="radio" name="abertura_ocular" value="Nenhuma"> Nenhuma (1)
+                </label>
+            </div>
+
+            <div class="checkbox-group">
+                <h2>Resposta Verbal:</h2>
+                <label>
+                    <input type="radio" name="resposta_verbal" value="Palavras e Frase Apropriadas"> Palavras e Frase Apropriadas (5)
+                </label>
+                <label>
+                    <input type="radio" name="resposta_verbal" value="Palavras Inapropriadas"> Palavras Inapropriadas (4)
+                </label>
+                <label>
+                    <input type="radio" name="resposta_verbal" value="Choro Persistente ou Gritos"> Choro Persistente ou Gritos (3)
+                </label>
+                <label>
+                    <input type="radio" name="resposta_verbal" value="Sons Imcomprensíveis"> Sons Imcomprensíveis (2)
+                </label>
+                <label>
+                    <input type="radio" name="resposta_verbal" value="Nenhuma Resposta Verbal"> Nenhuma Resposta Verbal (1)
+                </label>
+            </div>
+
+            <div class="section">
+                <h2>Resposta Motora:</h2>
+                <label>
+                    <input type="radio" name="resposta_motora" value="Obedece Prontamente"> Obedece Prontamente (6)
+                </label>
+                <label>
+                    <input type="radio" name="resposta_motora" value="Localiza Dor ou Estímulo Tátil"> Localiza Dor ou Estímulo Tátil (5)
+                </label>
+                <label>
+                    <input type="radio" name="resposta_motora" value="Retirada do Segmento Estimulado"> Retirada do Segmento Estimulado (4)
+                </label>
+                <label>
+                    <input type="radio" name="resposta_motora" value="Flexão Anormal (Decorticação)"> Flexão Anormal (Decorticação) (3)
+                </label>
+                <label>
+                    <input type="radio" name="resposta_motora" value="Extensão Anormal (Decerebração)"> Extensão Anormal (Decerebração) (2)
+                </label>
+                <label>
+                    <input type="radio" name="resposta_motora" value="Ausência (Paralisia Flácida, Hipotonia)"> Ausência (Paralisia Flácida, Hipotonia) (1)
+                </label>
+            </div>
+            <label for="local">Total (GCS)(3-15):</label>
+            <input type="total" id="total" name="total">
+            <a class="botaocadastrar" href="sinaisvitais.html">ENVIAR
+            
+            </a>
+            <button type="submit">
+                Gravar
+            </button>
+        </form>
+    </div>
+</body>
+</html>
